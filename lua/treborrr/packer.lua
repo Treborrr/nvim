@@ -49,5 +49,7 @@ return require('packer').startup(function(use)
       {'L3MON4D3/LuaSnip'},
     }
   }
+  use 'windwp/nvim-autopairs'
+
 end)
 
