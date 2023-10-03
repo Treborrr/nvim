@@ -1,11 +1,12 @@
- local opts = { noremap = true, silent = true }
+local opts = { noremap = true, silent = true }
 
-vim.keymap.set("n", "<leader>V", ":vsplit<CR>", opts)
-vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
-
+-- Save & Exit
 vim.keymap.set("n", "<leader>w", ":w<CR>", opts)
 vim.keymap.set("n", "<leader>q", ":q<CR>", opts)
 
+-- VSplit & Tree 
+vim.keymap.set("n", "<leader>V", ":vsplit<CR>", opts)
+vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 
 -- Telescope keymaps
 local builtin = require('telescope.builtin')
