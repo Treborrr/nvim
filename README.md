@@ -4,14 +4,15 @@ Mi configuración minimalista para Neovim escrita en Lua, tiene algun que otro
 plugin que te puede servir, del caso contrario sientete libre de editar la
 configuracion a tu antojo y sobre todo a tu medida.
 
-## Requirements
+## Requisitos
 
 1. Versiones de NeoVim v0.9 en adelante. 
+2. Git.
 
 ## Instrucciones de Instalación
 
 1. [Packer](https://github.com/wbthomason/packer.nvim#quickstart) (Leer documentatcion)
-2. [NerdFont] (https://www.nerdfonts.com/font-downloads)
+2. [Nerd Font](https://www.nerdfonts.com/font-downloads)
 
 ## Instrucciones de Instalación
 1. Clona este repositorio en tu máquina local:
