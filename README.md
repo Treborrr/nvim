@@ -1,14 +1,14 @@
 # Mi Configuración de Neovim
 
-Mi configuración minimalista para Neovim escrita en Lua, tiene algun que otro
-plugin que te puede servir, del caso contrario sientete libre de editar la
-configuracion a tu antojo y sobre todo a tu medida.
+Mi configuración minimalista para Neovim escrita en Lua incluye algunos plugins que pueden
+serte útiles. Si no es el caso, siéntete libre de editar la configuración a tu
+gusto y adaptarla según tus necesidades.
 
 ## Requisitos
 
-1. Versiones de NeoVim v0.9 en adelante. 
-2. Git.
-
+1. Git.
+2. Versiones de NeoVim v0.9 en adelante. 
+ 
 ## Instrucciones de Instalación
 
 1. [Packer](https://github.com/wbthomason/packer.nvim#quickstart) (Leer documentatcion)
@@ -28,7 +28,7 @@ configuracion a tu antojo y sobre todo a tu medida.
 1. Entra a lua/treborrr/packer.lua para agregar/eliminar plugins.(Al eliminar algun plugin no olvides eliminar su archivo de configuracion en after/plugin si es que se existe.)
 2. Ejecutando ':Mason' se instalan los servidores de lenguaje.
 
->[Aviso] Algunos lenguajes requieren instalaciones externas a nvim.
+>[Aviso] Algunos lenguajes requieren la instalacion de paquetes externa a nvim.
 
 ## Recomendaciones
 
