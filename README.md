@@ -21,7 +21,7 @@ gusto y adaptarla según tus necesidades.
    git clone https://github.com/Treborrr/nvim ~/.config/nvim --depth 1 && nvim
    ```
 
-2. Ejecuta `:Mason` dentro de nvim para instalar los plugins.
+2. Ejecuta `:PackerInstall` dentro de nvim para instalar los plugins.
 
 ## Configurar
 
