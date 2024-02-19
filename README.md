@@ -6,8 +6,8 @@ gusto y adaptarla según tus necesidades.
 
 ## Requisitos
 
-1. Git.
-2. Versiones de NeoVim v0.9 en adelante. 
+1. Compilador de c.
+2. Versiones de NeoVim v0.9 en adelante.
  
 ## Instrucciones de Instalación
 
@@ -18,7 +18,7 @@ gusto y adaptarla según tus necesidades.
 1. Clona este repositorio en tu máquina local:
 
    ```bash
-   git clone https://github.com/Treborrr/nvim ~/.config/nvim --depth 1 && nvim
+   git clone https://github.com/Treborrr/nvim ~/.config/nvim
    ```
 
 2. Ejecuta `:PackerInstall` dentro de nvim para instalar los plugins.
