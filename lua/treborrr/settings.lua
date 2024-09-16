@@ -35,3 +35,6 @@ vim.opt.backup = false
 vim.opt.errorbells = false
 vim.opt.swapfile = false
 
+vim.opt.spell = true
+vim.opt.spelllang = { 'en_us' }
+
