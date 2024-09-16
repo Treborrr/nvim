@@ -1,0 +1,2 @@
+--require('treborrr.dashboard').setup()
+

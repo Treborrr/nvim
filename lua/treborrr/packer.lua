@@ -4,7 +4,7 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
   -- Theme
---  use 'Mofiqul/dracula.nvim'
+  use 'Mofiqul/dracula.nvim'
   -- Lualine
   use 'nvim-lualine/lualine.nvim'
   -- TreeSitter
@@ -12,16 +12,21 @@ return require('packer').startup(function(use)
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'
   }
+  -- Dashboard
+  use {
+    'goolord/alpha-nvim',
+    requires = { 'nvim-tree/nvim-web-devicons' },
+    config = function()
+      require('alpha').setup(require('alpha.themes.dashboard').config)
+    end
+  }
   -- Cellular Auromaton 
   use 'eandrju/cellular-automaton.nvim'
   -- Telescope
   use {
     'nvim-telescope/telescope.nvim', tag = '0.1.3',
-    -- or                           , branch = '0.1.x',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
-  -- WebDev icons
-  use 'nvim-tree/nvim-web-devicons'
   -- Trouble
   use({
     "folke/trouble.nvim",

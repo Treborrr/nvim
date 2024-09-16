@@ -1,1 +1,1 @@
---vim.cmd[[colorscheme dracula]] -- For Dracula theme.:
+vim.cmd[[colorscheme dracula]] -- For Dracula theme.:
